@@ -8,9 +8,9 @@
 </div>
 <br>
 
-[Deployed App](http://ec2-3-210-110-55.compute-1.amazonaws.com/)
+[Deployed App](https://ec2-3-210-110-55-quizforge-1-amazonaws.vercel.app/)
 
-<img width="100%" src="https://github.com/mvoyevoda/Aurora/assets/102834064/4cebac36-9a27-42b0-a0f1-7add53372118">
+![alt text](image.png)
 
 ## 💫 Features
 
@@ -37,7 +37,4 @@
   
 ## 🤝 Collaborators
 
-- https://github.com/AdefelaFakorode
-- https://github.com/AhmedHamza667
-- https://github.com/ddamme05
-- https://github.com/mvoyevoda
+- https://github.com/ffshreyansh
