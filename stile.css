@@ -45,20 +45,16 @@ h1{
   display: flex;
   justify-content: center;
 }
-.formio-component-submit button{
-  background: #000;
-  padding: 12px 0 12px 0;
-}
 .form-radio{
   display: flex;
   gap: 8px;
 }
 
-[data-theme-name=Trade] .formio-component-submit button{
+[data-theme-name="Trade"] .formio-component-submit button{
   background: red;
   padding: 12px 0 12px 0;
 }
-[data-theme-name=Dawn] .formio-component-submit button{
+[data-theme-name="Dawn"] .formio-component-submit button{
   background: #08d8c0;
   padding: 12px 0 12px 0;
 }
