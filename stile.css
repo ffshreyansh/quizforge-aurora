@@ -1,14 +1,15 @@
 .loader-wrapper{
   display: none;
 }
-
-#formio{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formio-form{
   width: 40%;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
   border-radius: 8px;
-  padding:20px;
+  padding:40px;
   -webkit-box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.14);
 -moz-box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.14);
 box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.14);
@@ -17,26 +18,34 @@ box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.14);
 #formio .formio-form{
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 20px;
+  background: #fff;
 }
-#formio label{
-    font-family: Arial, Helvetica, sans-serif;
-    display: none;
+.formio-form label{
+    margin-bottom: 8px;
+}
+label .sr-only{
+  display: none
 }
 #formio .form-group{
-  width: 100%;
+/*   width: 100%; */
+  display: flex;
+  flex-direction: column;
 }
 #formio input{
-  padding: 20px 6px 20px 6px;
-/*   border: none; */
-/*   width: 100%;  */
-/*   background-color: #fff3cc; */
+  padding: 15px 8px 15px 8px;
+  border-radius: 4px;
+ width: -webkit-fill-available;
+  border: none;
+  background: #f5f5f5;
+  font-size: 0.95rem;
 }
 .form-group button{
   width: 100%;
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
 h1{
   text-align: center;
   margin-bottom: 20px;
@@ -45,16 +54,62 @@ h1{
   display: flex;
   justify-content: center;
 }
+.formio-component-submit button{
+  background: #000;
+  padding: 12px 0 12px 0;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
 .form-radio{
   display: flex;
   gap: 8px;
 }
+.formio-choices{
+  border: none;
+  background: #f5f5f5;
+  padding: 15px 6px 15px 6px;
+  border-radius: 4px;
+}
+.form-check-label{
+  display: flex;
+  gap:4px;
+  align-items: center;
+}
+.form-check-label input{
+  width: auto !important;
+}
+.formio-component-file ul{
+  display: none;
+}
+.formio-component-file .fileSelector{
+    font-size: 1rem;
+    text-decoration: none;
+}
+.formio-component-file .browse{
+    text-decoration: none;
+  
+}
+.formio-component-file .alert-warning{
+  font-size: 0.85rem;
+  background: #f7eff0;
+  padding:0 10px;
+  text-align: center;
+  margin-top: 6px;
+  border-radius: 4px;
+}
 
-[data-theme-name="Trade"] .formio-component-submit button{
-  background: red;
+
+
+
+
+
+
+[data-theme-name=Trade] .formio-component-submit button{
   padding: 12px 0 12px 0;
 }
-[data-theme-name="Dawn"] .formio-component-submit button{
-  background: #08d8c0;
+[data-theme-name=Dawn] .formio-component-submit button{
   padding: 12px 0 12px 0;
 }
