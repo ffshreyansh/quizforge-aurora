@@ -84,16 +84,12 @@ h1{
 .formio-component-file ul{
   display: none;
 }
-.formio-component-file .fileSelector{
-    font-size: 1rem;
-    text-decoration: none;
-}
+
 .formio-component-file .browse{
     text-decoration: none;
   
 }
 .formio-component-file .alert-warning{
-  font-size: 0.85rem;
   background: #f7eff0;
   padding:0 10px;
   text-align: center;
@@ -107,11 +103,12 @@ h1{
 
 
 
-
-
-[data-theme-name=Trade] .formio-component-submit button{
-  padding: 12px 0 12px 0;
+[data-theme-name="Trade"] .fileSelector{
+    font-size: 1.5rem;
 }
-[data-theme-name=Dawn] .formio-component-submit button{
+[data-theme-name="Trade"] .formio-component-file .alert-warning{
+  font-size: 1.25rem;
+}
+[data-theme-name="Dawn"] .formio-component-submit button{
   padding: 12px 0 12px 0;
 }
