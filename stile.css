@@ -101,14 +101,43 @@ h1{
 }
 
 
-
+/* Trade Theme CSS */
 
 [data-theme-name="Trade"] .fileSelector{
+    font-size: 1.5rem;
+}
+[data-theme-name="Trade"] #formio input{
     font-size: 1.5rem;
 }
 [data-theme-name="Trade"] .formio-component-file .alert-warning{
   font-size: 1.25rem;
 }
+[data-theme-name="Trade"] .formio-choices{
+  padding: 20px 6px 20px 6px;
+}
+
+
+/* Dawn Theme CSS */
+
 [data-theme-name="Dawn"] .formio-component-submit button{
   padding: 12px 0 12px 0;
+}
+
+
+
+
+
+
+
+/* Responsive Section */
+@media (max-width:960px){
+  .formio-form{
+    width: 70%;
+  }
+}
+
+@media (max-width:480px){
+  .formio-form{
+    width: 90%;
+  }
 }
