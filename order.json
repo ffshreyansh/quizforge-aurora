@@ -1,0 +1,19 @@
+{
+    "1234": {
+      "customerName": "John Doe",
+      "orderDate": "2024-07-16",
+      "items": [
+        {"name": "Product 1", "quantity": 2, "price": 20},
+        {"name": "Product 2", "quantity": 1, "price": 50}
+      ]
+    },
+    "5678": {
+      "customerName": "Jane Smith",
+      "orderDate": "2024-07-17",
+      "items": [
+        {"name": "Product 3", "quantity": 1, "price": 100},
+        {"name": "Product 4", "quantity": 3, "price": 30}
+      ]
+    }
+  }
+  
